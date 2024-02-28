@@ -13,7 +13,7 @@ const HeroList = ({publisher}) => {
         {heroes.map(hero => (
            
             <HeroCard hero={hero}/>
-                      
+                    
         ))}
     </div>
   )

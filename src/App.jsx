@@ -1,5 +1,6 @@
 import React from "react"
 import AppRouter from "./routers/AppRouter"
+import AuthProvider from "./auth/context/AuthProvider"
 
 
 
@@ -7,9 +8,12 @@ import AppRouter from "./routers/AppRouter"
 function App() {
   
   return (
-    <>
+    <AuthProvider>
+
       <AppRouter/>
-    </>
+      
+    </AuthProvider>
+    
   )
 }
 

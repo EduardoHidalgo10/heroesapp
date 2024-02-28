@@ -22,7 +22,6 @@ const SearchPage = () => {
   const onSearchSubmit = (e) => {
     e.preventDefault();
 
-    // if (searchText.trim().length <= 1) return;
 
     navigate(`?q=${searchText}`);
 
